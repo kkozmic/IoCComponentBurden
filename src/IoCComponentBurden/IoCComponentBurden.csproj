@@ -98,7 +98,7 @@
     <Compile Include="Containers\FunqContainerWrapper.cs" />
     <Compile Include="Containers\LinFuContainerWrapper.cs" />
     <Compile Include="DisposableComponentWithDependenciesTestCase.cs" />
-    <Compile Include="IoCTestCase.cs" />
+    <Compile Include="NonDisposableComponentWithDependenciesTestCase.cs" />
     <Compile Include="Model\DataStore.cs" />
     <Compile Include="Model\DisposableService.cs" />
     <Compile Include="Model\IDataStore.cs" />
