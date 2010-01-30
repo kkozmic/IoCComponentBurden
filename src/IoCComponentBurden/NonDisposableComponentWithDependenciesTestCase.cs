@@ -21,7 +21,7 @@ namespace IoCComponentBurden
 	using NUnit.Framework;
 
 	[TestFixture]
-	public class IoCTestCase
+	public class NonDisposableComponentWithDependenciesTestCase
 	{
 		private void Execute<TScenatio>() where TScenatio : ContainerWrapper, new()
 		{
